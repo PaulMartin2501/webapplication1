@@ -29,5 +29,9 @@ namespace WebApplication1.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.Collection> Collections { get; set; }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.List> Lists { get; set; }
     }
 }

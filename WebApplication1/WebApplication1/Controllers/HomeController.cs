@@ -26,5 +26,11 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+        public ActionResult List()
+        {
+            ViewBag.Message = "Your List Page.";
+
+            return View();
+        }
     }
 }
